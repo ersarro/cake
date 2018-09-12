@@ -27,7 +27,7 @@ esc #	finish editing
 	
 #	check log of commits. bottom is first thing you did, top is the most current.
 #	includes commit messages
-#long version
+#	long version
 git log
 #	short version
 git log --oneline
@@ -48,3 +48,6 @@ git rm cakerecipe.txt
 #	return to previous version
 #	this is how you'd start a new branch as well
 git checkout #number from log
+
+#	return to most recent, current version
+git checkout master
