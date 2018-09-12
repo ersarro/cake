@@ -1,3 +1,30 @@
+##GIT HOW TO
+
+#in terminal:
+
+#download git file to wd
+git clone https://ersarro@github.com/ersarro/cake
+
+#add txt file to the wd git folder, edit, etc
+
+#see git status (which files are different from those online)
+git status
+
+#add new files to git (here new file is recipe.txt)
+git add recipe.txt
+
+#commit all files
+git commit -a
+
+#when prompted for commit message:
+	i #insert text
+	#write message
+	esc #finish editing
+	:wq #enter to exit
+
+
+
+
 1/2 lb butter
 1/2 cup vegetable oil
 3 cups sugar
@@ -17,3 +44,10 @@
 7. Mix in vanilla
 8. Pour into greased and floured tube pan
 9. Bake for 60-90 minutes until toothpick in center comes out clean
+
+
+
+
+
+
+

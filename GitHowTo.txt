@@ -1,0 +1,23 @@
+##GIT HOW TO
+
+#in terminal:
+
+#download git file to wd
+git clone https://ersarro@github.com/ersarro/cake
+
+#add txt file to the wd git folder, edit, etc
+
+#see git status (which files are different from those online)
+git status
+
+#add new files to git (here new file is recipe.txt)
+git add recipe.txt
+
+#commit all files
+git commit -a
+
+#when prompted for commit message:
+	i #insert text
+	#write message
+	esc #finish editing
+	:wq #enter to exit
