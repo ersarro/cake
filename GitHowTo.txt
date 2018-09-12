@@ -1,43 +1,49 @@
 ##GIT HOW TO
 
-	#in terminal:
+#in terminal:
 
-	#download git file to wd
+#download git file to wd
 git clone https://ersarro@github.com/ersarro/cake
 
-	#add txt file to the wd git folder, edit, etc
+#add txt file to the wd git folder, edit, etc
 
-	#see git status (which files are different from those online)
+#see git status (which files are different from those online)
 git status
 
-	#add new files to git (here new file is recipe.txt)
+#add new files to git (here new file is recipe.txt)
 git add recipe.txt
 
-	#add recursively
+#add recursively
 git add testingresults/*
 
-	#commit all files and update all existing files
+#commit all files and update all existing files
 git commit -a
 
-	#when prompted for commit message:
+#when prompted for commit message:
 i #insert text
-	#write message
+#write message
 esc #finish editing
 :wq #enter to exit
 	
-	#check log of commits. bottom is first thing you did, top is the most current.
-	#includes commit messages
-	#long version
+#check log of commits. bottom is first thing you did, top is the most current.
+#includes commit messages
+#long version
 git log
-	#short version
+#short version
 git log --oneline
 
-	#upload officially to github
+#upload officially to github
 git push
 
 
 
 
-	#to change a name of the file: 
-	#have git change it, don't change yourself b/c will see as new file
+#to change a name of the file: 
+#have git change it, don't change yourself b/c will see as new file
 git mv recipe.txt cakerecipe.txt
+
+#to remove file: do through git as well
+git rm cakerecipe.txt
+
+#return to previous version
+git checkout #number from log
