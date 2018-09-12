@@ -13,7 +13,10 @@ git status
 #add new files to git (here new file is recipe.txt)
 git add recipe.txt
 
-#commit all files
+#add recursively
+git add testingresults/*
+
+#commit all files and update all existing files
 git commit -a
 
 #when prompted for commit message:
@@ -21,3 +24,7 @@ git commit -a
 	#write message
 	esc #finish editing
 	:wq #enter to exit
+	
+#check log of commits. bottom is first thing you did, top is the most current.
+#includes commit messages
+git log --oneline
